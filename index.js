@@ -3,7 +3,7 @@ const http = require('http');
 const port = process.env.PORT || 5000;
 
 const server = http.createServer((request, response) => {
-  response.end(process.env);
+  response.end(JSON.stringify(process.env, null, '  '));
 });
 
 server.listen(port, () => {
