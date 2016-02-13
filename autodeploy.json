@@ -1,0 +1,3 @@
+{
+  "dockerargs": "-p 8080:5000 -e AD_TEST=1"
+}
