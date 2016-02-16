@@ -1,5 +1,4 @@
 {
   "dockerargs": "-e PORT=5000 -p 5000 -e AD_TEST=1",
-  "virtualHost": "${branch}.dev2.1n3.co",
-  "wait": 5
+  "virtualHost": "${branch}.dev2.1n3.co"
 }
