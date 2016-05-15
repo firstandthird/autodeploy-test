@@ -10,3 +10,9 @@ const server = http.createServer((request, response) => {
 server.listen(port, () => {
   console.log(`Server started on port ${port}`);
 });
+
+process.on('SIGTERM', () => {
+  server.stop({ timeout: 5 * 1000 }, () => {
+    process.exit(0);
+  });
+});
