@@ -1,4 +1,12 @@
 {
-  "dockerargs": "-e PORT=5000 -p 5000 -e AD_TEST=1 -e NODE_ENV={{env}} -e VIRTUAL_HOST={{branch}}.{{repo}}.dev2.1n3.co",
+  "dockerargs": {
+    "e": {
+      "PORT": 5000,
+      "AD_TEST": 1,
+      "NODE_ENV": "{{env}}",
+      "VIRTUAL_HOST": "{{branch}}.{{repo}}.dev2.1n3.co"
+    },
+    "p": 5000
+  },
   "scale": "{{ env == 'dev' ? 1 : 3 }}"
 }
