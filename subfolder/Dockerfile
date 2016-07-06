@@ -1,6 +1,6 @@
 FROM node:4
 
-ADD . /app
+ADD subfolder /app
 
 WORKDIR /app
 
