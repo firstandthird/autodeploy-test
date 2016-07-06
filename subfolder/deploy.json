@@ -1,5 +1,5 @@
 {
-  "folder": "subfolder",
+  "dockerfile": "subfolder/Dockerfile",
   "dockerargs": {
     "e": {
       "PORT": 5000,
