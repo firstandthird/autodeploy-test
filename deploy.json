@@ -4,8 +4,7 @@
       "PORT": 5000,
       "AD_TEST": 1,
       "NODE_ENV": "{{env}}",
-      "GH_USERNAME": "{{vars.GH_USERNAME}}",
-      "VIRTUAL_HOST": "{{branch}}.{{repo}}.dev2.1n3.co"
+      "GH_USERNAME": "{{vars.GH_USERNAME}}"
     },
     "p": 5000
   },
