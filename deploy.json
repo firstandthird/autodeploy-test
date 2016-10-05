@@ -1,8 +1,6 @@
 {
   "name": "testapp",
-  "masterAsRoot": {
-    "dev": true
-  },
+  "rootDomain": "master",
   "dockerargs": {
     "e": {
       "PORT": 5000,
