@@ -7,6 +7,5 @@
       "GH_USERNAME": "{{vars.GH_USERNAME}}"
     },
     "p": 5000
-  },
-  "scale": 2
+  }
 }
