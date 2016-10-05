@@ -1,5 +1,6 @@
 {
   "name": "testapp",
+  "masterAsRoot": true,
   "dockerargs": {
     "e": {
       "PORT": 5000,
