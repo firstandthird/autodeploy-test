@@ -1,6 +1,7 @@
 {
   "name": "testapp",
   "rootDomain": "master",
+  "https": true,
   "dockerargs": {
     "e": {
       "PORT": 5000,
