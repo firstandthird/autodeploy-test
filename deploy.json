@@ -1,9 +1,4 @@
 {
-  "name": "testapp",
-  "host": {
-    "master": "test-app.*"
-  },
-  "https": true,
   "dockerargs": {
     "e": {
       "PORT": 5000,
