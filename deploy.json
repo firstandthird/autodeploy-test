@@ -3,6 +3,9 @@
   "host": {
     "master": "test-app.*"
   },
+  "whitelist": [
+    "master"
+  ],
   "https": true,
   "dockerargs": {
     "e": {
