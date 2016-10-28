@@ -1,6 +1,8 @@
 {
   "name": "testapp",
-  "rootDomain": "master",
+  "host": {
+    "master": "test-app.*"
+  },
   "https": true,
   "dockerargs": {
     "e": {
